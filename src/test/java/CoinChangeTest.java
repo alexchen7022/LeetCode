@@ -12,10 +12,6 @@ public class CoinChangeTest {
     private List<Long> c;
     private int n;
 
-    @BeforeEach
-    void setUp() {
-        CoinChange.init();
-    }
 
     @Test
     void case1() {
